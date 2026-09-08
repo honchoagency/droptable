@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/DroptablePackageTests.d",
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/DroptablePackageTests.o",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/primary.swiftdeps"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.derived/runner.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptablePackageTests.build/runner.dia"
+  }
+}

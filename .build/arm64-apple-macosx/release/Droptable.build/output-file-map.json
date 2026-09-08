@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/Droptable.d",
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/Droptable.o",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/primary.swiftdeps"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/Droptable/DroptableApp.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/DroptableApp.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/DroptableApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/DroptableApp.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/Droptable.build/DroptableApp.dia"
+  }
+}

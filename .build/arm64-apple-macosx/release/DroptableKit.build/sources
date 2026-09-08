@@ -1,0 +1,15 @@
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Deletion/FileDeletionService.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Models/AppSettings.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Models/DatabaseFileRecord.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Scanning/ExtensionMatcher.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Scanning/IgnoreMatcher.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Scanning/ScanEngine.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Settings/SettingsStore.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Updates/UpdateChecker.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Updates/UpdateState.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/ViewModels/ScanViewModel.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/ContentView.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/DeleteConfirmationView.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/DeletionErrorsView.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/ResultsTableView.swift
+/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/SettingsView.swift

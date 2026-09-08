@@ -1,0 +1,97 @@
+{
+  "": {
+    "dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DroptableKit.d",
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DroptableKit.o",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/primary.swiftdeps"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Deletion/FileDeletionService.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/FileDeletionService.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/FileDeletionService~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/FileDeletionService.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/FileDeletionService.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Models/AppSettings.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/AppSettings.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/AppSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/AppSettings.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/AppSettings.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Models/DatabaseFileRecord.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DatabaseFileRecord.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DatabaseFileRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DatabaseFileRecord.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DatabaseFileRecord.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Scanning/ExtensionMatcher.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ExtensionMatcher.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ExtensionMatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ExtensionMatcher.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ExtensionMatcher.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Scanning/IgnoreMatcher.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/IgnoreMatcher.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/IgnoreMatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/IgnoreMatcher.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/IgnoreMatcher.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Scanning/ScanEngine.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanEngine.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanEngine.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanEngine.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Settings/SettingsStore.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsStore.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsStore.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsStore.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Updates/UpdateChecker.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateChecker.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateChecker~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateChecker.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateChecker.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Updates/UpdateState.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateState.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateState~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateState.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/UpdateState.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/ViewModels/ScanViewModel.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanViewModel.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanViewModel.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ScanViewModel.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/ContentView.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ContentView.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ContentView.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/DeleteConfirmationView.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeleteConfirmationView.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeleteConfirmationView~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeleteConfirmationView.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeleteConfirmationView.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/DeletionErrorsView.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeletionErrorsView.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeletionErrorsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeletionErrorsView.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/DeletionErrorsView.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/ResultsTableView.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ResultsTableView.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ResultsTableView~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ResultsTableView.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/ResultsTableView.dia"
+  },
+  "/Users/michaelwestwood/code/honcho/apps/old-database-manager/Sources/DroptableKit/Views/SettingsView.swift": {
+    "object": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/michaelwestwood/code/honcho/apps/old-database-manager/.build/arm64-apple-macosx/release/DroptableKit.build/SettingsView.dia"
+  }
+}
