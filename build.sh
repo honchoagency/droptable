@@ -28,8 +28,10 @@ rm -rf "$APP_BUNDLE"
 mkdir -p "$APP_BUNDLE/Contents/MacOS" "$APP_BUNDLE/Contents/Resources"
 
 cp "$BUILD_BIN" "$APP_BUNDLE/Contents/MacOS/$APP_NAME"
+ICON_LINE=""
 if [ -f "Resources/AppIcon.icns" ]; then
-  cp "Resources/AppIcon.icns" "$APP_BUNDLE/Contents/Resources/"
+  cp "Resources/AppIcon.icns" "$APP_BUNDLE/Contents/Resources/AppIcon.icns"
+  ICON_LINE="    <key>CFBundleIconFile</key><string>AppIcon</string>"
 fi
 
 # Derive "owner/repo" from the git remote so the in-app update check knows
@@ -55,6 +57,7 @@ cat > "$APP_BUNDLE/Contents/Info.plist" <<PLIST
     <string>$BUNDLE_ID</string>
     <key>CFBundleExecutable</key>
     <string>$APP_NAME</string>
+$ICON_LINE
 $GHREPO_LINE
     <key>CFBundleVersion</key>
     <string>$VERSION</string>
