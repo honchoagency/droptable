@@ -14,12 +14,20 @@ VERSION="${VERSION_OVERRIDE:-$(git -C "$ROOT" describe --tags --abbrev=0 2>/dev/
 VERSION="${VERSION:-1.0}"
 VERSION="${VERSION#v}"
 
-swift build -c release --product Droptable
+if [ "${UNIVERSAL:-0}" = "1" ]; then
+  echo "==> swift build (release, universal arm64+x86_64)"
+  swift build -c release --product Droptable --arch arm64 --arch x86_64
+  BUILD_BIN="$ROOT/.build/apple/Products/Release/Droptable"
+else
+  echo "==> swift build (release, $(uname -m))"
+  swift build -c release --product Droptable
+  BUILD_BIN="$ROOT/.build/release/Droptable"
+fi
 
 rm -rf "$APP_BUNDLE"
 mkdir -p "$APP_BUNDLE/Contents/MacOS" "$APP_BUNDLE/Contents/Resources"
 
-cp ".build/release/Droptable" "$APP_BUNDLE/Contents/MacOS/$APP_NAME"
+cp "$BUILD_BIN" "$APP_BUNDLE/Contents/MacOS/$APP_NAME"
 if [ -f "Resources/AppIcon.icns" ]; then
   cp "Resources/AppIcon.icns" "$APP_BUNDLE/Contents/Resources/"
 fi

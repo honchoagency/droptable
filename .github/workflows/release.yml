@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0            # so build.sh can read the tag via git describe
+
+      - name: Build (universal, ad-hoc signed)
+        run: CI=1 UNIVERSAL=1 bash build.sh
+
+      - name: Zip app bundle
+        run: |
+          VERSION=${GITHUB_REF_NAME}
+          zip -r "Droptable-${VERSION}.zip" "Droptable.app"
+          echo "ASSET=Droptable-${VERSION}.zip" >> "$GITHUB_ENV"
+          echo "VERSION=${VERSION}" >> "$GITHUB_ENV"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ env.VERSION }}
+          files: ${{ env.ASSET }}
+          body: |
+            ## Install
+
+            1. Download `Droptable-${{ env.VERSION }}.zip` below and unzip it.
+            2. Move `Droptable.app` to your Applications folder.
+            3. **First launch only** — macOS blocks unsigned apps. Either:
+               - right-click the app → **Open** → **Open**, or
+               - run in Terminal:
+                 ```
+                 xattr -dr com.apple.quarantine "/Applications/Droptable.app"
+                 ```
+            4. On first scan, macOS will ask for permission to read your Desktop,
+               Documents, and Downloads folders individually — allow each one so
+               Droptable can find old database dumps there.
